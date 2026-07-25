@@ -10,7 +10,7 @@ Predictive machine learning models to assess consumer loan default risk, built o
 - **Target variable:** `target_default` (binary: 0 = no default, 1 = default)
 - **California subset:** filtered via `addr_state == "CA"`, merged with rejected CA loans and CA unemployment rate by `year_month`
 
-> ⚠️ **[FINAL SAMPLE SIZE — CONFIRM BEFORE PUBLISHING]**
+>  **[FINAL SAMPLE SIZE — CONFIRM BEFORE PUBLISHING]**
 > Final modeling dataset size: `[X rows]` — pull this from `X_train.shape` / `X.shape` in notebook 04, right before `.fit()`.
 
 ## Notebooks
