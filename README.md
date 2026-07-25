@@ -42,7 +42,6 @@ Predictive machine learning models to assess consumer loan default risk, built o
 
 ## Key Results
 
-> ⚠️ **[CONFIRM BEFORE PUBLISHING]**
 > - ROC-AUC: `[confirm final value from notebook 04]`
 > - Final training set size: `[confirm]`
 > - Models: XGBoost, CatBoost
