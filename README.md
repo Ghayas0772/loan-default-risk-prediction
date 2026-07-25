@@ -90,7 +90,7 @@ Aggregating individual feature importances by category:
 | **Loan Terms** | 19.67% |
 | **Macroeconomic Factors** | 18.67% |
 
-![Feature Category Importance](images/feature_category_importance.png)
+![Feature Category Importance](images/feature_category_importance.webp)
 
 **Key takeaways:**
 - Credit grading variables are the dominant predictors of default risk
