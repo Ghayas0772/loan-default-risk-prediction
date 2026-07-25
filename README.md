@@ -42,9 +42,15 @@ Predictive machine learning models to assess consumer loan default risk, built o
 
 ## Key Results
 
-> - ROC-AUC: `[confirm final value from notebook 04]`
-> - Final training set size: `[confirm]`
-> - Models: XGBoost, CatBoost
+![Model Performance Comparison](images/model_comparison.png)
+
+| Model | ROC-AUC | Precision | Recall | F1 |
+|---|---|---|---|---|
+| Logistic Regression | 0.702 | 0.301 | 0.675 | 0.416 |
+| Random Forest | 0.700 | 0.502 | 0.065 | 0.114 |
+| **CatBoost** | **0.717** | 0.319 | 0.660 | 0.431 |
+
+**Best model: CatBoost**, selected for its strongest ROC-AUC and F1 balance.
 
 ## Tech Stack
 
